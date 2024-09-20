@@ -52,4 +52,4 @@ jobs:
     - name: Clean up
       run: rm tfplan
     - name: destroy
-      run : terraform apply -destroy
+      run : terraform apply -destroy --auto-approve
