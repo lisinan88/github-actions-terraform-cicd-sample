@@ -51,5 +51,4 @@ jobs:
 
     - name: Clean up
       run: rm tfplan
-    - name: destroy
-      run : terraform apply -destroy --auto-approve
+    # destroy the aws environment
